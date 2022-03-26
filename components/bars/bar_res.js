@@ -16,7 +16,10 @@ const SearchBar = ({navigation}) => {
     }
     
     return (
+
         <View style={formStyle.box}>
+            <Text style={formStyle.head}> Kapalzy </Text>
+
             <View style={formStyle.package}>
                 <Text style={formStyle.text}>Pelabuhan Awal</Text>
                 <View style={formStyle.formSingle}>
@@ -118,13 +121,14 @@ const formStyle = StyleSheet.create({
     box:{
         backgroundColor: '#fff',
         borderRadius: 10,
-        padding: 50,
+        padding: 20,
         width: '80%',
         position: 'absolute',
         top: '50%',
         left: '10%',
         shadowColor: '#000',
         elevation: 5,
+        marginVertical: 20,
     },
     package:{
         marginTop: 10,
@@ -140,9 +144,24 @@ const formStyle = StyleSheet.create({
         borderRadius: 10,
         marginTop: 3,
     },
+    button:{
+        alignSelf: 'center',
+        color: 'blue',
+    },
+    textButton:{
+        color: 'blue',
+        fontWeight: 'bold',
+        fontSize: 20,
+    },
+    head:{
+        alignSelf: 'center',
+        fontSize: 30,
+        fontWeight: 'bold',
+        color: 'blue',
+        marginBottom: 20,
+    },
     text:{
         fontSize: 16,
-        fontWeight: 'bold'
     },
     Icon:{
         padding: 10,
@@ -156,6 +175,7 @@ const formStyle = StyleSheet.create({
         paddingLeft: 0,
         backgroundColor: '#fff',
         color: 'black',
+        fontWeight: 'bold',
     },
 })
 

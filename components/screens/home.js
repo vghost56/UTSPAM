@@ -7,9 +7,7 @@ import Footer from '../assets/as_footer'
 const Home = ({navigation}) =>{
     return (
         <View>
-          <Header/>
           <ShipRes navigation={navigation}/>
-          <Footer/>
         </View>
       )
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 import { View, Text, StyleSheet, Colors } from "react-native"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { withSafeAreaInsets } from 'react-native-safe-area-context';
 
 const Footer = () => {
     return (
